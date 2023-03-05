@@ -1,14 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
 .navContainer {
-  /* max-width: 1024px; */
   width: 100%;
   height: 100px;
-  /* border: var(--light) solid 1px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  /* padding: 1rem; */
   position: relative;
 }
 
@@ -25,6 +22,7 @@
 .logo span {
   font-size: 34px;
   transition: ease 0.3s;
+  font-family: 'Nabla', cursive;
 }
 .logo span:hover {
   scale: 1.3;
@@ -82,14 +80,14 @@
   margin: 20px auto;
   padding: 10px;
   /* background-color: var(--second); */
-  color: var(--second-under);
+  color: #FF6000  !important;
   text-shadow: var(--fifth-under) 2px 2px;
   font-size: 2rem;
   cursor: pointer;
   text-shadow: 2px 2px var(--dark);
 }
 .navMenu li:hover {
-  color: var(--sixth-under);
+  color: #FFDD00;
 }
 
 /* WRAPPER MENU */
@@ -114,8 +112,7 @@
 }
 
 .lineMenu {
-  /* background-color: var(--second-under); */
-  background-color: black;
+  background-color:#FFE539;
   border-radius: 5px;
   width: 100%;
   height: 3px;
@@ -173,11 +170,11 @@
 
   .navMenu li {
     /* width: 100%; */
-    text-shadow: var(--fifth-under) 1px 1px;
+    text-shadow:#FFEA53 0.5px 0.5px !important;
     margin-left: 10px;
     padding: 10px;
     background-color: transparent;
-    color: var(--second-under);
+    color:#FF6000 ;
     font-size: 1rem;
     justify-content: flex-end;
   }

@@ -19,11 +19,11 @@
 }
 
 
-/* body{ */
-/*   background-color: var(--main-color) !important; */
-/*   color: var(--light-main) !important; */
-/* } */
-/**/
+body{
+  background-color: var(--main-color) !important;
+  color: var(--light-main) !important;
+}
+
 a {
   cursor: pointer;
   text-decoration: none !important;

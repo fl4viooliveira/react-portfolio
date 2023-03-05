@@ -1,48 +1,57 @@
-export default function Header() {
-  return (
-    <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand pl-3" href="#hero">
-        Flavio Oliveira
-      </a>
+import styles from "../styles/Header.module.css"
+import {Link} from "react-router-dom";
+import {useState} from "react";
 
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+export default function Header() {
+  const [click, setClick] = useState(true);
+  const handleClick = () => setClick(!click);
+
+  return (
+    <div className={styles.navContainer}>
+      <Link to="/">
+        <h1 className={styles.logo}>
+        <span>F</span>
+        <span>L</span>
+        <span>A</span>
+        <span>V</span>
+        <span>I</span>
+        <span>O</span>
+        </h1>
+      </Link>
+      {/* <ul className={styles.navMenu}> */}
+      <ul
+        className={
+          click ? styles.navMenu : `${styles.navMenu} ${styles.active}`
+        }
       >
-        <span className="navbar-toggler-icon"></span>
-      </button>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="/projects">
+          <li>Projects</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact</li>
+        </Link>
+      </ul>
+
+      {/* WRAPPER MENU */}
       <div
-        className="collapse navbar-collapse justify-content-end"
-        id="navbarNav"
+        className={
+          click
+            ? `${styles.wrapperMenu}`
+            : `${styles.wrapperMenu} ${styles.open}`
+        }
+        onClick={handleClick}
       >
-        <ul className="navbar-nav p-3">
-          <li className="nav-item">
-            <a className="nav-link link-custom" href="#hero">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link link-custom" href="#work">
-              Work
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link link-custom" href="#skills">
-              Skills
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link link-custom" href="#about-contact">
-              About & Contact
-            </a>
-          </li>
-        </ul>
+        <div
+          className={`${styles.lineMenu} ${styles.half} ${styles.start}`}
+        ></div>
+        <div className={styles.lineMenu}></div>
+        <div
+          className={`${styles.lineMenu} ${styles.half} ${styles.end}`}
+        ></div>
       </div>
-    </nav>
+    </div>
   );
 }

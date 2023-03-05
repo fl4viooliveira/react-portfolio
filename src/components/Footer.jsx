@@ -5,7 +5,7 @@ import {FaGithubAlt, FaTwitter, FaLinkedinIn, FaStackOverflow} from "react-icons
 export default function Footer() {
   return (
     <section className="container-fluid my-5">
-      <div className="text-center text-lg-start footer-box mx-1 ">
+      <div className={`text-center text-lg-start ${styles.footerBox} mx-1 `}>
         <div className="container p-4 pb-0">
           <section className="">
             <div className="row">

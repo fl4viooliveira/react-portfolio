@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
                 <h6 className={`mb-4 font-weight-bold ${styles.brand}`}>Flavio Oliveira</h6>
                 <p>
-                  I can help you get off scratch, projects as startups,
+                  We can help you get off scratch, projects as startups,
                   portfolio pages, prototypes ideas, or create a web application
                   for your business.
                 </p>

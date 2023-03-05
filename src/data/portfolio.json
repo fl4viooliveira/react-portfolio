@@ -5,8 +5,7 @@
     "name": "Markdown Blog",
     "repo": "https://github.com/fl4viooliveira/blogproject",
     "deployed": "https://blogproject.io/",
-    "img": "./images/portfolio-1.png",
-    "about": "Here's a project that can be valuable for developers who want to have a blog simply and most cheaply. Deploying on Vercel, it's free for hobby accounts. This blog project doesn't use a database, and the posts are Markdown files."
+    "img": "./images/portfolio-1.png"
   },
   {
     "id": 2,
@@ -14,8 +13,7 @@
     "name": "Cous De La Construction",
     "repo": null,
     "deployed": "https://cousdela.com/",
-    "img": "./images/portfolio-2.png",
-    "about": "Portfolio Website was written using Next.js, consuming the WordPress API."
+    "img": "./images/portfolio-2.png"
   },
   {
     "id": 3,
@@ -23,61 +21,30 @@
     "name": "E-Commerce Application",
     "repo": "https://github.com/fl4viooliveira/4devbydev",
     "deployed": "https://4devbydev.vercel.app/",
-    "img": "./images/portfolio-3.png",
-    "about": "This project intends to be an appliable e-commerce application with a functional deployed website direct from our OpenSource repository."
+    "img": "./images/portfolio-3.png"
   },
   {
     "id": 4,
-    "slug": "blogproject",
-    "name": "Blogproject",
-    "repo": "https://github.com/fl4viooliveira/blogproject",
-    "deployed": "https://blogproject.io/",
-    "img": "./images/portfolio-1.png",
-    "about": "Here's a project that can be valuable for developers who want to have a blog simply and most cheaply. Deploying on Vercel, it's free for hobby accounts. This blog project doesn't use a database, and the posts are Markdown files."
+    "slug": "three-js-study-case",
+    "name": "Three.js - Study case",
+    "repo": "https://github.com/fl4viooliveira/duda",
+    "deployed": "https://fl4viooliveira.github.io/duda/",
+    "img": "./images/portfolio-4.png"
   },
   {
     "id": 5,
-    "slug": "blogproject",
-    "name": "Blogproject",
-    "repo": "https://github.com/fl4viooliveira/blogproject",
-    "deployed": "https://blogproject.io/",
-    "img": "./images/portfolio-1.png",
-    "about": "Here's a project that can be valuable for developers who want to have a blog simply and most cheaply. Deploying on Vercel, it's free for hobby accounts. This blog project doesn't use a database, and the posts are Markdown files."
+    "slug": "css-grid-study-case",
+    "name": "CSS Grid - Study case",
+    "repo": "https://github.com/fl4viooliveira/bkg_grid_layout",
+    "deployed": "https://fl4viooliveira.github.io/bkg_grid_layout",
+    "img": "./images/portfolio-5.png"
   },
   {
     "id": 6,
-    "slug": "blogproject",
-    "name": "Blogproject",
-    "repo": "https://github.com/fl4viooliveira/blogproject",
-    "deployed": "https://blogproject.io/",
-    "img": "./images/portfolio-1.png",
-    "about": "Here's a project that can be valuable for developers who want to have a blog simply and most cheaply. Deploying on Vercel, it's free for hobby accounts. This blog project doesn't use a database, and the posts are Markdown files."
-  },
-  {
-    "id": 7,
-    "slug": "blogproject",
-    "name": "Blogproject",
-    "repo": "https://github.com/fl4viooliveira/blogproject",
-    "deployed": "https://blogproject.io/",
-    "img": "./images/portfolio-1.png",
-    "about": "Here's a project that can be valuable for developers who want to have a blog simply and most cheaply. Deploying on Vercel, it's free for hobby accounts. This blog project doesn't use a database, and the posts are Markdown files."
-  },
-  {
-    "id": 8,
-    "slug": "blogproject",
-    "name": "Blogproject",
-    "repo": "https://github.com/fl4viooliveira/blogproject",
-    "deployed": "https://blogproject.io/",
-    "img": "./images/portfolio-1.png",
-    "about": "Here's a project that can be valuable for developers who want to have a blog simply and most cheaply. Deploying on Vercel, it's free for hobby accounts. This blog project doesn't use a database, and the posts are Markdown files."
-  },
-  {
-    "id": 9,
-    "slug": "blogproject",
-    "name": "Blogproject",
-    "repo": "https://github.com/fl4viooliveira/blogproject",
-    "deployed": "https://blogproject.io/",
-    "img": "./images/portfolio-1.png",
-    "about": "Here's a project that can be valuable for developers who want to have a blog simply and most cheaply. Deploying on Vercel, it's free for hobby accounts. This blog project doesn't use a database, and the posts are Markdown files."
+    "slug": "blogr landing page",
+    "name": "Blogr landing page",
+    "repo": "https://github.com/fl4viooliveira/blogr_landing_page",
+    "deployed": "https://fl4viooliveira.github.io/blogr_landing_page/",
+    "img": "./images/portfolio-6.png"
   }
 ]

@@ -15,6 +15,7 @@ export default function Projects() {
               <div class="col-md-4 d-flex justify-content-center mb-5">
                 <ProjectCard
                   deployed={project.deployed}
+                  repo={project.repo}
                   name={project.name}
                   img={project.img}
                   alt={project.name}

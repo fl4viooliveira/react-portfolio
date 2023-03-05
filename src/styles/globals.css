@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Nabla&display=swap');
 
 :root {
   /* COLORS */
@@ -27,31 +26,31 @@ body{
 a {
   cursor: pointer;
   text-decoration: none !important;
-  color: inherit;
+  color: var(--light-main) !important;
+
 }
-/**/
-/* a:hover { */
-/*   color: var(--alert); */
-/* } */
+a:hover {
+  color: var(--light-secondary) !important;
+}
 /**/
 /* hr { */
 /*   border-top: 1px var(--light-secondary) dashed; */
 /* } */
 /**/
-/* button { */
-/*   background-color: var(--light-main) !important; */
-/*   border: 1px var(--light-main) solid !important; */
-/*   color: var(--main-color) !important; */
-/*   font-weight: 700 !important; */
-/*   border-radius: 8px; */
-/*   box-shadow: 5px 5px 11px #533671, */
-/*     -5px -5px 11px #6d4895; */
-/* } */
-/**/
-/* button:hover { */
-/*   background-color: var(--main) !important; */
-/*   color: var(--light-main) !important; */
-/*   box-shadow: 5px 5px 11px #311f44, */
-/*     -5px -5px 11px #9a6bcc; */
-/* } */
-/**/
+button {
+  background-color: var(--light-main) !important;
+  border: 1px var(--light-main) solid !important;
+  color: var(--main-color) !important;
+  font-weight: 700 !important;
+  border-radius: 8px;
+  box-shadow: 5px 5px 11px #533671,
+    -5px -5px 11px #6d4895;
+}
+
+button:hover {
+  background-color: var(--main) !important;
+  color: var(--light-main) !important;
+  box-shadow: 5px 5px 11px #311f44,
+    -5px -5px 11px #9a6bcc;
+}
+

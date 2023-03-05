@@ -1,0 +1,15 @@
+.brand {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.footer-box {
+  border-radius: 20px;
+  background: #603f83;
+  box-shadow: inset 35px 35px 70px #4d3269,
+    inset -35px -35px 70px #734c9d;
+}
+
+.work-link {
+  font-size: 1rem;
+}

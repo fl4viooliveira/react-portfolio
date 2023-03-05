@@ -84,13 +84,13 @@ export default function Home() {
         </div>
       </div>
 
-      <section class="container-fluid skill-box" id="skills">
-        <h1 class="text-center my-5">Skills</h1>
-        <div class="jumbotron skills-jumbo jumbotron-fluid">
-          <h3 class="mx-3">Git / GitHub</h3>
-          <div class="progress m-3">
+      <section className="container-fluid skill-box" id="skills">
+        <h1 className="text-center my-5">Skills</h1>
+        <div className="jumbotron skills-jumbo jumbotron-fluid">
+          <h3 className="mx-3">Git / GitHub</h3>
+          <div className="progress m-3">
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
+              className="progress-bar progress-bar-striped progress-bar-animated"
               role="progressbar"
               style={{ width: "85%" }}
               aria-valuenow="10"
@@ -98,10 +98,10 @@ export default function Home() {
               aria-valuemax="100"
             ></div>
           </div>
-          <h3 class="mx-3">HTML / CSS</h3>
-          <div class="progress m-3">
+          <h3 className="mx-3">HTML / CSS</h3>
+          <div className="progress m-3">
             <div
-              class="progress-bar progress-bar-striped bg-success progress-bar-animated"
+              className="progress-bar progress-bar-striped bg-success progress-bar-animated"
               role="progressbar"
               style={{ width: "95%" }}
               aria-valuenow="25"
@@ -109,10 +109,10 @@ export default function Home() {
               aria-valuemax="100"
             ></div>
           </div>
-          <h3 class="mx-3">JavaScript</h3>
-          <div class="progress m-3">
+          <h3 className="mx-3">JavaScript</h3>
+          <div className="progress m-3">
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated progress-bar-animated bg-info"
+              className="progress-bar progress-bar-striped progress-bar-animated progress-bar-animated bg-info"
               role="progressbar"
               style={{ width: "85%" }}
               aria-valuenow="50"
@@ -120,10 +120,10 @@ export default function Home() {
               aria-valuemax="100"
             ></div>
           </div>
-          <h3 class="mx-3">Work with APIs</h3>
-          <div class="progress m-3">
+          <h3 className="mx-3">Work with APIs</h3>
+          <div className="progress m-3">
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+              className="progress-bar progress-bar-striped progress-bar-animated bg-warning"
               role="progressbar"
               style={{ width: "80%" }}
               aria-valuenow="75"
@@ -131,10 +131,10 @@ export default function Home() {
               aria-valuemax="100"
             ></div>
           </div>
-          <h3 class="mx-3">React</h3>
-          <div class="progress m-3">
+          <h3 className="mx-3">React</h3>
+          <div className="progress m-3">
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+              className="progress-bar progress-bar-striped progress-bar-animated bg-danger"
               role="progressbar"
               style={{ width: "95%" }}
               aria-valuenow="100"

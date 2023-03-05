@@ -38,7 +38,7 @@ export default function Contact() {
                   className="btn btn-outline-light btn-floating m-1 text-white"
                   role="button"
                 >
-                  <i>Email: <AiOutlineMail /></i>
+                  <i>fl4viooliveira@gmail.com: <AiOutlineMail /></i>
                 </a>
                 <a
                   href={Pdf}

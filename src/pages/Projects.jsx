@@ -12,7 +12,7 @@ export default function Projects() {
         <div class="row">
           {projects.map((project) => {
             return (
-              <div class="col-md-4 d-flex justify-content-center mb-5">
+              <div key={project.id} class="col-md-4 d-flex justify-content-center mb-5">
                 <ProjectCard
                   deployed={project.deployed}
                   repo={project.repo}

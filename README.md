@@ -108,7 +108,7 @@ This project is build-up with components that carry information throw the pages.
 
  3. Execute `React`
  ``` sh
- npm start;
+ npm start
  ```
 
   

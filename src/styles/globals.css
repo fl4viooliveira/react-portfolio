@@ -32,11 +32,11 @@ a {
 a:hover {
   color: var(--light-secondary) !important;
 }
-/**/
-/* hr { */
-/*   border-top: 1px var(--light-secondary) dashed; */
-/* } */
-/**/
+
+hr {
+  border-top: 1px var(--light-secondary) dashed;
+}
+
 button {
   background-color: var(--light-main) !important;
   border: 1px var(--light-main) solid !important;
